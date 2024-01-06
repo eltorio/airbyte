@@ -1,4 +1,4 @@
-FROM eltorio/dbt:1.0.0a
+FROM eltorio/dbt:1.7.4
 COPY --from=airbyte/base-airbyte-protocol-python:0.1.1 /airbyte /airbyte
 
 # Install SSH Tunneling dependencies
